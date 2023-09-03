@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Overflow.sol": "overflow"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Overflow.sol": {
+			"keccak256": "0x5c273bf418e2e352200fa5b618eaf1515d8feb690c2afce521f2603d49f1621a",
+			"urls": [
+				"bzzr://00c2e4d1c0780918f7bd7ee524d739165b1e167a7254d9913e9ef9ba75287b41"
+			]
+		}
+	},
+	"version": 1
+}

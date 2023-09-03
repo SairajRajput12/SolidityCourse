@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tushar",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Booleans.sol": "Booleans"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Booleans.sol": {
+			"keccak256": "0xcf26b5c3c64044355c9f9bd813650784008dd1f52222468d8ef8accbf9b3104f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bea574354c8de6b900f4501c42ee9221f6a5b518f69fcbd87d9e181bc4d8978c",
+				"dweb:/ipfs/QmbF4RN4QXMiUfeTRfLUXt4SmfuMHs24Wj4WH8HM898izu"
+			]
+		}
+	},
+	"version": 1
+}
