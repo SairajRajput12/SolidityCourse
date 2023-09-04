@@ -1,28 +1,45 @@
-REMIX DEFAULT WORKSPACE
+SOLIDITY
+Reference: Code Eater
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+Solidity is a High level Programming Language.
+Case Sensitive.
+Static programming language.
+We writes contract on Solidity.
+Solidity Compilation Process:
+Contract Source File **.sol** file
+               |
+               |
+      Solidity Compiler
+         /           \
+        /             \
+      ABI          Byte Code
+                       |
+                       |
+                  Ethereum Blockchain
+1. ABI : (Abstract Binary Interface)
 
-This workspace contains 3 directories:
+Helps to Communicate others smart contract with this smart contrac.
+In the form of Array of JSON Obj. Format. Consisting Information of Function and more..
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+2. Byte File :
 
-SCRIPTS
-
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+This consist JSON Object & this Obj...
+"object" key consist byte code
+"opcode" key consist opcode (Instructions) --> to excute in EVM (Ethereum Virtual Machine).
+Some Imp Points:
+Contract bytecode is public in readable form.
+Contract doesn't have to be public.
+Bytecode is immutable.
+ABI act as a brigde between applications and smart contract.
+ABI & Bytecode can not generate without source code.
+Mainnet VS Testnet
+Mainnet	Testnet
+1) A Network where real value of Ether has to transaction.	1) Use for testing smart contracts & decentralized application.
+2) Mainnet Network ID is 1.	2)Testnet has network IDs of 3, 4 $ 42.
+3) Ex. Ethereum Mainnet	3) Ex. Georli, Sepolia Test Network.
+Metamask: (Is a Crypto Wallet)
+To Store Ether
+To Receive Ether
+To Send Ether
+To Run Decentralized Apps
+To Swap tokens
